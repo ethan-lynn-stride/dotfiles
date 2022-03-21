@@ -1,0 +1,17 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+brew "git"
+brew "neovim"
+brew "pipx"
+brew "starship"
+
+cask "1password"
+cask "alfred"
+cask "docker"
+cask "google-chrome"
+cask "iterm2"
+cask "postman"
+cask "visual-studio-code"
+cask "zoom"

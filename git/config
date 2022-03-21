@@ -1,0 +1,7 @@
+[user]
+	name = Ethan Lynn
+	email = ethan.lynn@stridethera.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
