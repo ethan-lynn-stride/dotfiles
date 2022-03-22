@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+brew "awscli"
 brew "git"
 brew "neovim"
 brew "openssl"
