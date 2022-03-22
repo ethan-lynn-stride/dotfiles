@@ -13,6 +13,7 @@ eval "$(pyenv init -)"
 # Load Node Version Manager.
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
 
 # Set command aliases.
 alias la='ls -aF'
@@ -31,4 +32,3 @@ alias opengithub='open "https://github.com"'
 alias opengmail='open "https://mail.google.com"'
 alias openjira='open "https://stride-therapy.atlassian.net/jira"'
 alias openslack='open "https://stride-therapy.slack.com"'
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
