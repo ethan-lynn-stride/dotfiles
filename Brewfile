@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 
 brew "awscli"
 brew "git"
@@ -12,6 +13,7 @@ brew "pyenv"
 brew "readline"
 brew "sqlite3"
 brew "starship"
+brew "tmux"
 brew "xz"
 brew "zlib"
 
