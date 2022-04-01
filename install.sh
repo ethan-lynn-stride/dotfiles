@@ -16,6 +16,7 @@ ensure_xdg_config_home_exists() {
 update_symlinks() {
   echo -n 'updating symlinks... '
   local wd="$(pwd)"
+  ln -snf "${wd}/.tmux.conf" "${HOME}/.tmux.conf"
   ln -snf "${wd}/.zprofile" "${HOME}/.zprofile"
   ln -snf "${wd}/.zshrc" "${HOME}/.zshrc"
   ln -snf "${wd}/git" "${xdg_config_home}/git"
