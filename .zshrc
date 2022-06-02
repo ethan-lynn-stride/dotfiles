@@ -1,6 +1,3 @@
-# Use Starship prompt.
-eval "$(starship init zsh)"
-
 # Add pipx stuff to $PATH.
 export PATH="${PATH}:${HOME}/.local/bin"
 
