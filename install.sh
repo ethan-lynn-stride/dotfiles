@@ -20,7 +20,6 @@ update_symlinks() {
   ln -snf "${wd}/.zprofile" "${HOME}/.zprofile"
   ln -snf "${wd}/.zshrc" "${HOME}/.zshrc"
   ln -snf "${wd}/git" "${xdg_config_home}/git"
-  ln -snf "${wd}/nvim" "${xdg_config_home}/nvim"
   echo 'done'
 }
 

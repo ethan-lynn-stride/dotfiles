@@ -29,3 +29,5 @@ alias opengithub='open "https://github.com"'
 alias opengmail='open "https://mail.google.com"'
 alias openjira='open "https://stride-therapy.atlassian.net/jira"'
 alias openslack='open "https://stride-therapy.slack.com"'
+
+source /Users/ethan/.docker/init-zsh.sh || true # Added by Docker Desktop
