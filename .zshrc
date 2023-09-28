@@ -15,8 +15,8 @@ export NVM_DIR="$HOME/.nvm"
 # Set command aliases.
 alias la='ls -aF'
 alias ll='ls -alhF'
-alias codestride='code ~/src/github.com/stridetherapy/stride'
-alias codedotfiles='code ~/src/github.com/ethan-lynn-stride/dotfiles'
+alias cdstride='cd ~/src/github.com/stridetherapy/stride'
+alias cddotfiles='cd ~/src/github.com/ethan-lynn-stride/dotfiles'
 alias openaptible='open "https://account.aptible.com"'
 alias openauth0='open "https://manage.auth0.com/dashboard/us/stride-dev"'
 alias openaws='open "https://us-east-1.console.aws.amazon.com/console/home?region=us-east-1#"'
@@ -29,5 +29,3 @@ alias opengithub='open "https://github.com"'
 alias opengmail='open "https://mail.google.com"'
 alias openjira='open "https://stride-therapy.atlassian.net/jira"'
 alias openslack='open "https://stride-therapy.slack.com"'
-
-source /Users/ethan/.docker/init-zsh.sh || true # Added by Docker Desktop
